@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #e0f2fe;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+  }
+  
+  header {
+    font-size: 1.2rem;
+    margin-bottom: -3rem;
+  }
+  
+  header {
+    /* min-height: 20vh; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+  }
+  
+  button:focus {
+    border: none;
+  }
+  
+  .calorie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+  .food-box {
+    width: 60%;
+    background-color: white;
+    margin-top: 20px;
+    /* padding: 15px; */
+    border-radius: 10px;
+  }
+  
+  .food-list {
+    min-width: 40%;
+    list-style: none;
+    /* padding-bottom: 2rem; */
+    transition: all 0.5s ease;
+  }
+  
+  .food {
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    transition: all 0.5s ease;
+  }
+  .food-item {
+    /* margin-right: 0.4rem; */
+    padding: 0rem 0.5rem;
+  }
+  
+  .food li {
+    flex: 1;
+  }
+  
+  .high-btn{
+    background: #fee2e2;
+    color: #ef4444;
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    margin-left: 0.4rem;
+  }
+  .medium-btn{
+    background: #fef3c7;
+    color: #f59e0b;
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    margin-left: 0.4rem;
+  }
+  .low-btn {
+    background: #e0e7ff;
+    color: #6366f1;
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    margin-left: 0.4rem;
+  }
+  
+  .statistic {
+    margin-top: 1.4rem;
+    line-height: 2rem;
+    width: 60%;
+  }
+  
+  .statistic h2 {
+    color: rgb(107, 114, 128);
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: left;
+  }
+  
+  .statistic-container {
+    margin-top: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+    width: 100%;
+  }
+  
+  .statistic-box {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .statistic-box p {
+    color: rgb(107, 114, 128);
+    font-size: 0.75rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+  }
+  
+  .statistic-box .number {
+    color: rgb(17, 24, 39);
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+  }
+  
+  .food-box h2 {
+    color: rgb(107, 114, 128);
+    line-height: 2.25rem;
+    margin: 0.2rem 1rem;
+    padding: 0rem 0.5rem;
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+  
