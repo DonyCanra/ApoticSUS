@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../img/Asus-small.png">
+  <title>ASUS</title>
+
+  <!-- Font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+  <!-- Custom css file link -->
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <!-- Link Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
+
+</head>
+
+<body>
+
+  <!-- Header section start-->
+  <header class="header">
+    <a href="#" class="logo" style="text-decoration: none;">
+      <img src="./img/Asus-small.png" alt="" />
+      ApoticS<span>US</span>
+    </a>
+    <nav class="navbar">
+      <a style="text-decoration: none;" href="../index.html">home</a>
+    </nav>
+  </header>
+  <!-- Header section end-->
+
+  <!-- Home section start -->
+  <section class="home" id="home style=" color: #1d2630; background-color: white">
+    <div class="container mt-5">
+      <div class="text-center">
+        <h1 class="display-5 mb-5"><strong>Check Obesitas</strong></h1>
+      </div>
+
+      <div class="main row justify-content-center">
+        <form action="" id="passien-form" class="row justify-content-center mb-4" autocomplete="off">
+          <div class="col-10 col-md-8 mb-3">
+            <label for="name">Name</label>
+            <input class="form-control" id="name" type="text" placeholder="Enter your name" />
+          </div>
+
+          <div class="col-10 col-md-8 mb-3">
+            <label for="height">Height</label>
+            <input class="form-control" id="height" type="number" placeholder="Enter your height" />
+          </div>
+
+          <div class="col-10 col-md-8 mb-3">
+            <label for="gender">Weight</label><br>
+            <input class="form-control" id="weight" type="text" placeholder="Enter your Weight" />
+          </div>
+
+          <div class="col-10 col-md-8">
+            <input class="btn btn-success add-btn" type="submit" value="Submit" />
+          </div>
+        </form>
+        <div class="col-12 col-md-9 mt-5">
+          <table class="table table-striped table-light border border-success-subtle">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Height</th>
+                <th>Weight</th>
+                <th>Obesitas</th>
+              </tr>
+            </thead>
+            <tbody id="passien-list">
+              <tr>
+                <td>Dony Canra</td>
+                <td>170 (cm)</td>
+                <td>79 (kg)</td>
+                <td>16 (kg)</td>
+              </tr>
+              <tr>
+                <td>Fernanda Rizki</td>
+                <td>174 (cm)</td>
+                <td>85 (kg)</td>
+                <td>20 (kg)</td>
+              </tr>
+              <tr>
+                <td>Iqbal Gautawa</td>
+                <td>169 (cm)</td>
+                <td>80 (kg)</td>
+                <td>18 (kg)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Home section end -->
+
+  <!-- Footer Start -->
+  <footer>
+    <div class="socials">
+      <a href="https://github.com/DonyCanra"><i class="fa-brands fa-github"></i></i></a>
+      <a href="https://www.linkedin.com/in/donicanrarofikar"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/donycanra"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="links">
+      <a href="#">Home</a>
+    </div>
+    <div class="credit">
+      <p>Created by <a href="#">ASUS TEAM</a>. | &copy; 2023.</p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Custom js file link -->
+  <script src="./checkObesitas.js"></script>
+</body>
+
+</html>
